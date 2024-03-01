@@ -1,0 +1,907 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+dl,
+dt,
+dd,
+tbody,
+th,
+tr,
+td,
+thead,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.oya {
+    display: flex;
+    justify-content: space-between;
+}
+
+element.style {
+    cursor: auto;
+}
+
+/* 1カラム目 */
+.sss {
+    position: sticky;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.sss::-webkit-scrollbar {
+    width: 2px;
+}
+
+.sss::-webkit-scrollbar-track {
+    background-color: #222;
+}
+
+.sss::-webkit-scrollbar-thumb {
+    background-color: #ffffff8e;
+}
+
+.yoko_nav {
+    position: fixed;
+    width: 15%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.yoko_nav img {
+    width: 120px;
+    height: 52px;
+    margin-top: 32px;
+    margin-left: 57px;
+    margin-bottom: 10px
+}
+
+/* * { */
+/* margin: 0; */
+/* padding: 0; */
+/* } */
+
+.menuu li {
+    display: list-item;
+    /* 縦に並べる */
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0.5em;
+    /* background: #ccc; */
+    color: #fff;
+    width: 120px;
+    font-size: 15px;
+}
+
+.another li {
+    display: list-item;
+    /* 縦に並べる */
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0.5em;
+    /* background: #ccc; */
+    color: #fff;
+    width: 115px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.another li a {
+    color: white;
+}
+
+.menuu li a {
+    color: white;
+}
+
+/* 2カラム目 */
+.center-main {
+    width: 61%;
+    margin-left: 15%;
+    /* background-color: #dadada; */
+    z-index: 10;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.icon {
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.icon img {
+    width: 190px;
+}
+
+.stats {
+    color: #0000FF;
+}
+
+.stats p {
+    font-size: 40px;
+    font-family: "Roboto Condensed";
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+
+.stats h4 {
+    margin-top: 0%;
+}
+
+#f1 {
+    font-size: 20px;
+}
+
+.suti p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.con {
+    display: flex;
+    /* justify-content: center; */
+    border-bottom: 1px solid gray;
+
+}
+
+.person p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+
+.coon {
+    display: flex;
+}
+
+.sutti {
+    display: flex;
+}
+
+.data {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#f2 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.suuti {
+    display: flex;
+    margin-left: 70px;
+}
+
+.dataa {
+    margin-right: 35px;
+    margin-top: 20px;
+}
+
+.mes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 34%;
+}
+
+.mes input {
+    border-radius: 20px;
+    background-color: rgb(0, 125, 197);
+    color: white;
+    border: 1px solid gray;
+}
+
+.star {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: aqua;
+    width: 25px;
+    height: 25px;
+    /* margin-right: 33%; */
+}
+
+.wall {
+    background-color: rgb(234, 241, 247);
+}
+
+.navg {
+    margin-top: 5%;
+    margin-left: 8%;
+    padding-top: 22px;
+    padding-right: 0px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    /* border-bottom: 1px solid gray; */
+}
+
+/* nav { */
+/* text-align: center; */
+/* } */
+/* 真ん中にするならいる */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid gray;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li.current a {
+    color: #F33135;
+}
+
+nav ul li a:hover {
+    color: #E7DA66;
+}
+
+/* メイン部分まで */
+.menu {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+select {
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.kikan {
+    margin-left: 10px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.top-p {
+    margin: 10px 10px 10px 10px;
+    display: block;
+}
+
+.top-p-stats {
+    display: flex;
+    width: 720px;
+    min-width: 780px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 10px 0 10px;
+}
+
+.square h4 {
+    padding-top: 6px;
+    margin: 0;
+    text-align: center;
+}
+
+.square {
+    background-color: #fff;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 250px;
+    min-width: 290px;
+    height: 370px;
+    padding: 14px 14px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 5px rgb(174, 174, 174);
+}
+
+.square::before {
+    content: "";
+    position: absolute;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    bottom: 0;
+    right: 0;
+    height: 290px;
+    width: 290px;
+    background-color: rgb(0, 125, 197);
+    border-radius: 0 0 10px 10px;
+}
+
+.top-p-stats-value {
+    display: flex;
+}
+
+.top-p-stats-value img {
+    position: relative;
+    mix-blend-mode: multiply;
+}
+
+.z {
+    margin-top: 110px;
+    white-space: nowrap;
+    line-height: 1;
+    text-align: center;
+    font-family: "Book Antiqua";
+    width: 80px;
+}
+
+#white {
+    font-size: 16px;
+    color: #fff;
+    transform: scale(1, 1);
+}
+
+#toku {
+    transform: scale(1, 2.8);
+    font-size: 25px;
+    color: #fff;
+    margin-top: 35px;
+}
+
+#moji {
+    transform: scale(1, 1.3);
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-player {
+    display: flex;
+    width: 700px;
+    min-width: 750px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 10px 40px 20px 40px;
+    padding: 20px 0;
+}
+
+.main-player .main-player-five {
+    display: flex;
+}
+
+.main-player .main-player-start-five {
+    margin: 0 15px 0 0;
+    border: 1px solid#dadada;
+    width: 160px;
+    height: 227px;
+    padding: 22px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 2px 5px rgb(174, 174, 174);
+}
+
+.main-player-position {
+    margin: 0;
+}
+
+.main-player-image {
+    text-align: center;
+}
+
+#main-player-name {
+    display: block;
+    line-height: 1em;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: Hiragino Kaku Gothic ProN, YuGothicM, YuGothic, "Noto Sans JP", Meiryo, sans-serif;
+}
+
+.button-roster input {
+    padding: 0 16px;
+    border-radius: 20px;
+    margin: 10px 0 10px 345px;
+    color: #333;
+    border: 1px solid gray;
+    width: 144px;
+    height: 32px;
+}
+
+.win-lose-top {
+    display: flex;
+    border-radius: 10px 10px 0 0;
+    background-color: #fff;
+    width: 733px;
+    height: 112.19px;
+    margin: 40px 0 0 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: rgb(192, 192, 192) solid 1px;
+    box-sizing: border-box;
+}
+
+#TeamRecord-other-c {
+    margin: auto;
+    /* display: flex; */
+    font-size: 14px;
+    text-align: center;
+}
+
+#TeamRecord-other-b {
+    margin: auto;
+}
+
+.win-lose-bottom {
+    display: flex;
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    width: 733px;
+    height: 49.59px;
+    margin: 0 0 0 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#TeamRecord-other {
+    margin: auto;
+    display: flex;
+    font-size: 14px
+}
+
+#TeamRecord-other-a {
+    margin: auto;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: "MS Serif";
+}
+
+.teamstat-box {
+    margin: 0 40px 0 40px;
+}
+
+table,
+td,
+th {
+    border: 1px solid rgb(180, 179, 179);
+    border-collapse: collapse;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+td {
+    width: 132px;
+    height: 40px;
+    /* background-color: #0000FF; */
+}
+
+.teamstat-box-title {
+    /* margin: auto; */
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    text-align: center;
+}
+
+.teamstat-box-value {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    text-align: center;
+}
+
+.teamstat-box-caption {
+    color: gray;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.recently-stat {
+    position: relative;
+    width: 733px;
+    height: 1183px;
+    background-color: #fff;
+    margin: 0 0 0 40px;
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.recently-stat h6 {
+    position: absolute;
+    line-height: 1;
+    text-align: center;
+    font-size: 12px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.recently-stat .change {
+    color: #222;
+    margin-top: 50px;
+}
+
+.recently-stat-card {
+    display: flex;
+    position: relative;
+}
+
+.recently-stat-left {
+    box-sizing: border-box;
+    height: 191px;
+    width: 191px;
+    margin-left: 45px;
+}
+
+.recently-stat-card .recently-stat-center {
+    display: flex;
+    box-sizing: border-box;
+    width: 300px;
+    height: 141px;
+    margin: 100px 0 0 -50px;
+}
+
+.last-match-point {
+    font-size: 32px;
+    line-height: 1;
+    transform: scale(1, 1.5);
+    height: 59px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0;
+}
+
+.recently-stat-points {
+    display: flex;
+    padding: 0;
+    margin: 0 0 0 80px;
+}
+
+.recently-stat-right {
+    box-sizing: border-box;
+    height: 191px;
+    width: 191px;
+    /* margin-right: 5px; */
+}
+
+.recently-stat-left-img img {
+    width: 130px;
+    height: 135px;
+    margin-right: 20px;
+    margin-left: 32px;
+}
+
+.recently-stat-right-img img {
+    width: 130px;
+    height: 135px;
+    margin-right: 20px;
+    margin-left: 32px;
+}
+
+#f2 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.recently-stat,
+.team-gamescore-h {
+    display: block;
+}
+
+.recently-stat,
+.team-gamescore {
+    display: block;
+}
+
+.team-gamescore {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.team-gamescore-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.team-gamescore,
+.team-gamescore-table {
+    line-height: 1.5;
+    /* min-width: 100%; */
+    width: 685px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.table-row {
+    transition: background-color .2s cubic-bezier(.445, .05, .55, .95);
+}
+
+.table-row:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+.table-row-player {
+    font-family: Hiragino Kaku Gothic ProN, YuGothicM, YuGothic, "Noto Sans JP", Meiryo, sans-serif;
+    white-space: normal;
+    width: 200px;
+}
+
+.table-row-player-h {
+    width: 200px;
+}
+
+.team-gamescore th {
+    text-align: center;
+    white-space: nowrap;
+    width: auto;
+    background-color: #222;
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 5px 12px;
+    text-align: center;
+}
+
+.team-gamescore,
+.table-row-player-stats {
+    vertical-align: middle;
+    word-break: break-all;
+    text-align: center;
+    white-space: nowrap;
+    width: auto;
+}
+
+.table-row-player-stats {
+    background-color: inherit;
+    padding: 10px 16px;
+}
+
+.teaminfo-main {
+    margin: 40px 0 0;
+    padding: 0 40px;
+    width: 753px;
+    /* height: 264px; */
+}
+
+.teaminfo-main dl {
+    display: flex;
+    box-sizing: border-box;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    /* padding: 13px 16px; */
+}
+
+.teaminfo-main dt dd {
+    font-family: Hiragino Kaku Gothic ProN, YuGothicM, YuGothic, "Noto Sans JP", Meiryo, sans-serif;
+    /* font-size: 12px; */
+}
+
+.teaminfo-main dt {
+    display: block;
+    width: 160px;
+    /* height: 45px; */
+    /* text-align: center; */
+    padding: 13px 16px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.teaminfo-main dd {
+    display: block;
+    padding: 13px 16px;
+    width: 613px;
+    /* height: 45px; */
+    font-size: 12px;
+}
+
+#teaminfo-main-a {
+    border-bottom: 1px solid #ccc;
+}
+
+.button-teams input {
+    padding: 0 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 340px;
+    color: #333;
+    border: 1px solid gray;
+    width: 144px;
+    height: 32px;
+}
+
+.breadcrumbs {
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 12px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.breadcrumbs li::after {
+    content: '>';
+    display: inline-block;
+    padding: 0 10px;
+    /*左右に余白*/
+}
+
+.breadcrumbs li:last-child::after {
+    display: none;
+}
+
+.breadcrumbs li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*3*/
+.team-twitter-a {
+    position: fixed;
+    margin-left: 1027px;
+}
+
+.team-twitter {
+    position: sticky;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 322px;
+    height: 100vh;
+}
+
+/* footer */
+footer p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #dadada;
+    width: 61%;
+    margin-left: 15%;
+    padding-bottom: 30px;
+}
+
+footer img {
+    margin: 10px 20% 10px 42%;
+    width: 128px;
+    height: 57px;
+}
+
+.footer-top {
+    display: flex;
+    margin: 0 0 0 20%;
+}
+
+.footer-top p {
+    /* margin: 10px 10px; */
+    box-sizing: border-box;
+    line-height: 20px;
+    margin: 0 20px;
+    font-size: 12px;
+}
+
+.footer-bottom {
+    display: flex;
+    margin: 0 0 0 4%;
+}
+
+.footer-bottom p {
+    /* margin: 10px 10px; */
+    box-sizing: border-box;
+    line-height: 20px;
+    margin: 0 20px;
+    font-size: 12px;
+}
+
+.footer-bottom a,
+.footer-top a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* infoはここまで */
+
+/* ロスターはここから(´;ω;｀) */
+
+
+.roster-team-gamescore {
+    display: block;
+    margin-top: 50px;
+}
+
+.roster-team-gamescore-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.roster-team-gamescore,
+.roster-team-gamescore-table {
+    line-height: 1.5;
+    /* min-width: 100%; */
+    width: 753px;
+    box-sizing: border-box;
+    margin-left: 18px;
+    margin-right: 20px;
+}
+
+.roster-table-row {
+    transition: background-color .2s cubic-bezier(.445, .05, .55, .95);
+}
+
+.roster-table-row:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+.roster-table-row-player {
+    font-family: Hiragino Kaku Gothic ProN, YuGothicM, YuGothic, "Noto Sans JP", Meiryo, sans-serif;
+    white-space: normal;
+    width: 200px;
+}
+
+.roster-table-row-player-h {
+    width: 200px;
+}
+
+.roster-team-gamescore th {
+    text-align: center;
+    white-space: nowrap;
+    width: auto;
+    background-color: #222;
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 5px 12px;
+    text-align: center;
+}
+
+.roster-team-gamescore,
+.roster-table-row-player-stats-name{
+    text-align: left;
+    vertical-align: middle;
+    word-break: break-all;
+    white-space: nowrap;
+    width: 230px;
+}
+
+.roster-team-gamescore,
+.roster-table-row-player-stats {
+    vertical-align: middle;
+    word-break: break-all;
+    text-align: center;
+    white-space: nowrap;
+    width: auto;
+}
+
+.roster-table-row-player-stats {
+    background-color: inherit;
+    padding: 10px 16px;
+}
